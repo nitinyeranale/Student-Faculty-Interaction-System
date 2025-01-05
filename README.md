@@ -29,7 +29,8 @@ Foster a Positive Learning Environment:
 Create a platform that promotes positive student-faculty relationships, encourages active participation, and supports effective teaching and learning practices.
 
 
-
+## Home page :
+The home page of the Student-Faculty Interaction System serves as the main entry point for users and provides an overview of the system's features and functionalities. The design of the home page should be visually appealing, user-friendly, and provide easy navigation to key sections of the system . <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Home.png">Dashbord</a>
 
 
 
