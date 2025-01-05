@@ -6,7 +6,8 @@
 3) Faculty members, conversely, can manage courses, create assignments and upload Notes. Also upload their respective Timetable (Exam Timetable, class Timetable ). If any queries related to the course and 
    topic then Student
 
-## Problem Statement : To design system where all students, faculty members can communicate with each other store their data and can build profile and also faculty can access data and get the filtered data according to their needs.
+## Problem Statement : 
+To design system where all students, faculty members can communicate with each other store their data and can build profile and also faculty can access data and get the filtered data according to their needs.
 
 ## Objective :
 Improve Communication:
@@ -26,3 +27,22 @@ Implement robust security measures, such as user authentication and role-based a
 
 Foster a Positive Learning Environment:
 Create a platform that promotes positive student-faculty relationships, encourages active participation, and supports effective teaching and learning practices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
