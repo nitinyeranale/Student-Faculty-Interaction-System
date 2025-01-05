@@ -1,0 +1,125 @@
+<?php
+session_start();
+if(!isset($_SESSION["username"]))
+    {
+        header('Location:../../login/login.php');
+    }
+?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="col-lg-12">
+            <?php
+                $val1="";
+                $val1=$_GET['id'];
+                $conn=new mysqli('localhost','root','','college');
+                if($conn->connect_error)
+                {
+                    die("Error in db connection".$conn->connect_error);
+                }
+                $sql = "select * from `student` where `prn` = '$val1'";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) 
+                {
+                    while($row = $result->fetch_assoc()) 
+                    {
+                        
+                        $profilepic=$row['profilepic'];
+                        $name=$row['fname'].' '.$row['mname'].' '.$row['lname'];
+                        $email=$row['email'];
+                        $department=$row['class'].'-'.$row['department'];
+                        $mobileNo=$row['mobileno'];
+                        $prn=$row['prn'];
+                        $currentcity=$row['currentcity'];
+                        $highschool=$row['highschool'];
+                        $highercollege=$row['highercollege'];
+                        $hometown=$row['hometown'];
+                        $gender=$row['gender'];
+                        $sociallinks=$row['sociallinks'];
+                        $address=$row['address'];
+                        
+
+                    }
+                }
+                $conn->close();
+            ?>
+            <div style="border: solid 1px;
+                width: 19%;
+                height: 40vh;
+                border-radius: 50%;
+                margin-left: 39%;
+                margin-top: 6%;
+                overflow: hidden;">
+                    
+                    <img src="../profilepics/<?php echo $profilepic;?>" style="display: inline-block;
+                    width: 100%;
+                    height: 100%;"alt="User-Profile-Image">
+            </div>
+</div>
+<div class="row" style="margin-top: 2%;">
+                <div class="col-lg-12">
+                    <div style="border: solid 1px;height: 43vh;padding-top: 1%;" class="container">
+                    <div style="margin-left:2%">
+                    <br>
+                        <strong style="padding-right: 111px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Name
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $name ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 116px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Email
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $email ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 37px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Department
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $department ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 129px;font-family: 'Zilla Slab', cursive;font-size: 25px;">PRN
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $prn ;?></span><br>
+                        <br>
+                    </div>
+                    <div class="row" style="margin-top: 2%;">
+                      <div class="col-lg-6">
+                        <strong style="padding-right: 111px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Currentcity
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $currentcity ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 116px;font-family: 'Zilla Slab', cursive;font-size: 25px;">School
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $highschool ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 37px;font-family: 'Zilla Slab', cursive;font-size: 25px;">College(+2/Diploma)
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $highercollege ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 111px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Mobile No
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $mobileNo ;?></span><br>
+                        <br>
+
+                      </div>
+                      <div class="clo-lg-6">
+                        <strong style="padding-right: 111px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Hometown
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $hometown ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 111px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Address
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $address ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 116px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Gender
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $gender ;?></span><br>
+                        <br>
+                        <strong style="padding-right: 37px;font-family: 'Zilla Slab', cursive;font-size: 25px;">Social links
+                        </strong><span style="font-size: 151%;"><b>: </b><?php echo $sociallinks ;?></span><br>
+                        <br>
+
+                      </div>  
+                    
+                    </div>
+                </div>
+</div>
+
+
+
+
+
+</body>
+</html>

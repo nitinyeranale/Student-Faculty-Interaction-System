@@ -1,0 +1,40 @@
+#Home
+{
+    background-image: url(../images/dow.png);
+    height: calc(100vh);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-nav
+{
+    margin: auto;
+}
+.profile-container
+{
+    height: calc(100vh);
+}
+.profile-container p
+{
+    margin-top: -24px;
+    font-size: large;
+    font-style: italic;
+}
+.name
+{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 10%;
+
+}
+.socialmediaLast
+{
+    margin-left: 12px;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 46px;
+    background:orange;
+}
