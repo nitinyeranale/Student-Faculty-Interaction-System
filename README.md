@@ -31,21 +31,21 @@ Create a platform that promotes positive student-faculty relationships, encourag
 
 ## Home page :
 The home page of the Student-Faculty Interaction System serves as the main entry point for users and provides an overview of the system's features and functionalities. The design of the home page should be visually appealing, user-friendly, and provide easy navigation to key sections of the system . <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Home.png">Home_Page</a>
-
-##ogin Page :
+## Login Page :
 Use to Login Admin, Faculty, and Student. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Login.png">Login</a>
 
 ## Admin Dashboard :
 The admin dashboard in the Student-Faculty Interaction System project provides administrators with a comprehensive set of tools and functionalities to manage and oversee the system's operations.<a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Admin.png">Admin_Dashboard</a>
 
-##Faculty Dashboard :
-
+## Faculty Dashboard :
 The faculty dashboard is a dedicated section within the Student-Faculty Interaction System that offers faculty members access to essential tools and information to effectively manage their courses and interact with students.
-It provides a centralized hub where faculty members can view and manage course-related activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Faculty_Dashboard.png">Login</a>
+It provides a centralized hub where faculty members can view and manage course-related activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Faculty_Dashboard.png">Faculty_Dashboard</a>
 
-##Student Dashboard :
+## Student Dashboard 
+The student dashboard is a personalized section within the Student-Faculty Interaction System that provides students with an overview of their academic information and activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Student_Dashboard.png">Student_Dashboard</a>
 
-The student dashboard is a personalized section within the Student-Faculty Interaction System that provides students with an overview of their academic information and activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Student_Dashboard.png">Login</a>
+## Live Chatting Faculty and Student :
+In this field we can discuss doubts and other queries with faculty. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Live_communication.png">Chat</a>
 
 
 
