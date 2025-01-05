@@ -39,8 +39,16 @@ Use to Login Admin, Faculty, and Student. <a href="https://github.com/nitinyeran
 The admin dashboard in the Student-Faculty Interaction System project provides administrators with a comprehensive set of tools and functionalities to manage and oversee the system's operations.<a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Admin.png">Admin_Dashboard</a>
 
 ##Faculty Dashboard :
+
 The faculty dashboard is a dedicated section within the Student-Faculty Interaction System that offers faculty members access to essential tools and information to effectively manage their courses and interact with students.
-It provides a centralized hub where faculty members can view and manage course-related activities. 
+It provides a centralized hub where faculty members can view and manage course-related activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Faculty_Dashboard.png">Login</a>
+
+##Student Dashboard :
+
+The student dashboard is a personalized section within the Student-Faculty Interaction System that provides students with an overview of their academic information and activities. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Student_Dashboard.png">Login</a>
+
+
+
 
 
 
