@@ -30,13 +30,17 @@ Create a platform that promotes positive student-faculty relationships, encourag
 
 
 ## Home page :
-The home page of the Student-Faculty Interaction System serves as the main entry point for users and provides an overview of the system's features and functionalities. The design of the home page should be visually appealing, user-friendly, and provide easy navigation to key sections of the system . <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Home.png">Dashbord</a>
+The home page of the Student-Faculty Interaction System serves as the main entry point for users and provides an overview of the system's features and functionalities. The design of the home page should be visually appealing, user-friendly, and provide easy navigation to key sections of the system . <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Home.png">Home_Page</a>
 
+##ogin Page :
+Use to Login Admin, Faculty, and Student. <a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Login.png">Login</a>
 
+## Admin Dashboard :
+The admin dashboard in the Student-Faculty Interaction System project provides administrators with a comprehensive set of tools and functionalities to manage and oversee the system's operations.<a href="https://github.com/nitinyeranale/Student-Faculty-Interaction-System/blob/main/Admin.png">Admin_Dashboard</a>
 
-
-
-
+##Faculty Dashboard :
+The faculty dashboard is a dedicated section within the Student-Faculty Interaction System that offers faculty members access to essential tools and information to effectively manage their courses and interact with students.
+It provides a centralized hub where faculty members can view and manage course-related activities. 
 
 
 
